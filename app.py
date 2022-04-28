@@ -55,7 +55,7 @@ def main():
     st.markdown(html_temp, unsafe_allow_html=True)
 
     image = Image.open('car.jpg')
-    st.image(image, use_column_width=True, format='JPEG')
+    st.image(image, use_column_width=True, output_format="auto")
 
     activities = ['Calcuate Price', 'About', 'Contact']
     option = st.sidebar.selectbox('Menu ', activities)
