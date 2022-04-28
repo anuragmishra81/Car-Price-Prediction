@@ -79,7 +79,7 @@ def main():
                     <div style = "background color:#FDD20EFF; padding:10px">
                     <h3 style="color:#F93822FF; text-align:center;">Contact</h3></div>
                     <div style = "background color:#D7C49EFF; padding:10px">
-                    <p>This Model is Developed by <b>us students</b></p>
+                    <p>This Model is Developed by <b> </b>Anuj V, Jayshree W, Neha S</p>
                     <p>LinkedIn: <a href="https://google.com">Link</a></p>
                     <p>Kaggle: <a href="https://google.com">Link</a></p>
                     <p>SS</p>
@@ -123,7 +123,7 @@ def main():
 
     html_temp_end = """
         <div style="background-color:#603F83FF">
-        <h3 style="color:#C7D3D4FF;text-align:center;" >Happily Developed By: <b>solo_silence</b> </h3>
+        <h3 style="color:#C7D3D4FF;text-align:center;" >Happily Developed By: <b>Anuj V, Jayshree W, Neha S</b> </h3>
         </div>
         """
     st.markdown(html_temp_end, unsafe_allow_html=True)
