@@ -123,7 +123,7 @@ def main():
 
     html_temp_end = """
         <div style="background-color:#603F83FF">
-        <h3 style="color:#C7D3D4FF;text-align:center;" >Developed By: <b>Anuj V, Jayshree W, Neha S</b> </h3>
+        <h3 style="color:#C7D3D4FF;text-align:center;" >Developed By: <b>Anuj V, Jayshree W and Neha S</b> </h3>
         </div>
         """
     st.markdown(html_temp_end, unsafe_allow_html=True)
